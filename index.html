@@ -3,75 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Profil Pribadi - Ludia Kusuma Wijayanti</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Ludia Kusuma Wijayanti</h1>
-        <p>Mahasiswa Sistem Informasi</p>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Ludia Kusuma Wijayanti</h1>
+            <p class="lead mb-0">Mahasiswa Sistem Informasi</p>
+        </div>
     </header>
 
-    <main>
+    <main class="container my-5">
 
-        <section>
-            <h2>Tentang Saya</h2>
-            <p>
-                Saya adalah mahasiswa Sistem Informasi yang sedang mempelajari
-                teknologi informasi dan pengembangan web.
-            </p>
+        <section class="mb-5">
+            <h2 class="mb-3">Tentang Saya</h2>
+
+            <div class="card p-4">
+                <p class="mb-0">
+                    Saya adalah mahasiswa Sistem Informasi yang sedang belajar
+                    pemrograman web dasar. Saat ini saya sedang belajar HTML
+                    dan mencoba membuat halaman web sederhana.
+                </p>
+            </div>
         </section>
 
-        <section>
-            <h2>Riwayat Pendidikan</h2>
+        <section class="mb-5">
+            <h2 class="mb-3">Riwayat Pendidikan</h2>
 
-            <table border="1" cellspacing="0">
-                <tr>
-                    <th>Jenjang</th>
-                    <th>Nama Institusi</th>
-                    <th>Tahun</th>
-                </tr>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Jenjang</th>
+                            <th>Nama Institusi</th>
+                            <th>Tahun</th>
+                        </tr>
+                    </thead>
 
-                <tr>
-                    <td>SD</td>
-                    <td>SDN 1 Tegowanu Wetan</td>
-                    <td>2013-2019</td>
-                </tr>
+                    <tbody>
+                        <tr>
+                            <td>SD</td>
+                            <td>SDN 1 Tegowanu Wetan</td>
+                            <td>2013-2019</td>
+                        </tr>
 
-                <tr>
-                    <td>SMP</td>
-                    <td>SMPN 1 Tegowanu</td>
-                    <td>2019-2022</td>
-                </tr>
+                        <tr>
+                            <td>SMP</td>
+                            <td>SMPN 1 Tegowanu</td>
+                            <td>2019-2022</td>
+                        </tr>
 
-                <tr>
-                    <td>SMA</td>
-                    <td>SMAN 1 Gubug</td>
-                    <td>2022-2025</td>
-                </tr>
+                        <tr>
+                            <td>SMA</td>
+                            <td>SMAN 1 Gubug</td>
+                            <td>2022-2025</td>
+                        </tr>
 
-                <tr>
-                    <td>S1</td>
-                    <td>Universitas Dian Nuswantoro</td>
-                    <td>2025-Sekarang</td>
-                </tr>
-            </table>
+                        <tr>
+                            <td>S1</td>
+                            <td>Universitas Dian Nuswantoro</td>
+                            <td>2025-Sekarang</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
-        <section>
-            <h2>Keahlian</h2>
+        <section class="mb-5">
+            <h2 class="mb-3">Keahlian</h2>
 
-            <ul>
-                <li>Komunikasi</li>
-                <li>Kerja sama tim</li>
-            </ul>
+            <div class="card p-4">
+                <ul class="mb-0">
+                    <li>Komunikasi</li>
+                    <li>Kerja sama tim</li>
+                </ul>
+            </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 Ludia Kusuma Wijayanti</p>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+            &copy; 2026 Ludia Kusuma Wijayanti
+        </p>
     </footer>
 
 </body>
